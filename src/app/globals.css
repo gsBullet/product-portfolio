@@ -1,0 +1,539 @@
+/* Apply animation to the body */
+body {
+  background: #ffffff;
+}
+.bg-0 {
+  background: #fffff2 !important;
+}
+.bg-1 {
+  background: #eeeef2 !important;
+}
+.min-vh-70 {
+  min-height: 70vh !important;
+}
+.max-vh-70 {
+  max-height: 70vh !important;
+}
+.min-vh-60 {
+  min-height: 60vh !important;
+}
+.max-vh-60 {
+  max-height: 60vh !important;
+}
+.min-vh-50 {
+  min-height: 50vh !important;
+}
+.max-vh-50 {
+  max-height: 50vh !important;
+}
+.min-vh-40 {
+  min-height: 40vh !important;
+}
+.max-vh-40 {
+  max-height: 40vh !important;
+}
+.min-vh-30 {
+  min-height: 30vh !important;
+}
+
+.max-vh-30 {
+  max-height: 30vh !important;
+}
+.min-vh-25,
+.max-vh-25 {
+  min-height: 25vh !important;
+}
+.min-vh-20 {
+  min-height: 20vh !important;
+}
+.min-vh-10 {
+  min-height: 10vh !important;
+}
+
+.btn-header-nav {
+  border: 1px solid whitesmoke;
+  color: white;
+  font-weight: 800;
+  height: 36px;
+  line-height: 36px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.btn-header-nav:hover {
+  background: green;
+  color: #fff;
+}
+/* Define keyframes for background color animation */
+
+/* Default header style */
+.header-nav {
+  position: static;
+  /* width: 100%; */
+  background: transparent;
+  /* background: whitesmoke; */
+  border: 2px solid white;
+  padding: 15px 20px;
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+  border-radius: 10px;
+}
+
+/* Fixed header on scroll */
+
+.header-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures it stays on top */
+}
+
+.header-section {
+  background-color: wheat; /* Ensure visibility */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+.navLinkItem {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.product-banner {
+  background-image: url("./assects/img/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+.banner-header {
+  padding: 150px 0px;
+}
+.promo-video,
+.accordian-objects,
+.carousel-slider,
+.product-features,
+.product-client,
+.frame-work-support,
+.product-choose-container,
+.payment-getway,
+.social-media-sharing,
+.smart-pricing,
+.foooter-ground-container {
+  padding: 60px 0px;
+}
+.foooter-ground {
+  padding-top: 0px;
+}
+/* Ensure Bootstrap Container Context */
+.order-pricing-container {
+  position: relative;
+}
+
+/* Fixed Button Container */
+.fixed-btn-container {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+}
+
+/* Button Wrapper */
+.btn-wrapper {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: seagreen;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Icon Style */
+.icon {
+  color: white;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Text */
+.btn-text {
+  position: absolute;
+  left: 60px;
+  opacity: 0;
+  visibility: hidden;
+  background: seagreen;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Show Text on Hover */
+.btn-wrapper:hover .btn-text {
+  opacity: 1;
+  visibility: visible;
+  left: 70px;
+}
+
+.btn-wrapper:hover .icon {
+  transform: scale(1.2);
+}
+
+.banner-option {
+  margin-top: 55px;
+}
+.promoVideoBg {
+  background: lightcoral;
+  border-radius: 10px;
+  padding: 20px;
+}
+.accordion-button {
+  background: #fffff2 !important;
+  border-radius: 10px !important;
+  /* margin-bottom: 10px; */
+}
+/* Active State */
+.accordion-item {
+  background: #fffff2ad !important;
+  border-radius: 10px !important;
+  transition: 0.4s linear;
+  margin-bottom: 10px;
+}
+.chooseProductFlex,
+/* .featureProductFlex, */
+.multipleGetWays {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  /* border: 1px solid red; */
+}
+
+.seo-manager {
+  background-image: url("./assects/seo/seo.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+.sms-content {
+  background-image: url("./assects/img/sms.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 500px;
+}
+.bg-sms-change {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  margin: auto;
+  backdrop-filter: blur(2px);
+}
+.sms-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.footer-section {
+  background: #10355a;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.center-heading {
+  text-align: center;
+}
+
+.center-heading .section-title {
+  font-weight: 400;
+  font-size: 28px;
+  color: #3b566e;
+  letter-spacing: 1.75px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+
+.center-heading.colored .section-title {
+  color: #ffffff;
+}
+
+.center-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6f8ba4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.center-text.colored {
+  color: #ffc0eb;
+}
+
+.center-text p {
+  margin-bottom: 30px;
+}
+
+.pricing-item {
+  background: #ffffff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  transition: transform 0.5s linear;
+}
+
+.pricing-item:hover {
+  transform: scale(1.1);
+}
+
+.pricing-item.active .pricing-header {
+  position: relative;
+}
+
+.pricing-item.active .pricing-header .pricing-title {
+  color: #fff;
+}
+
+.pricing-item:hover .pricing-body .price-wrapper {
+  background-image: linear-gradient(
+    135deg,
+    rgba(46, 139, 86, 0.615) 0%,
+    seagreen 100%
+  );
+}
+
+.pricing-item:hover .pricing-body .price-wrapper .currency {
+  color: #fff;
+}
+
+.pricing-item:hover .pricing-body .price-wrapper .price {
+  color: #fff;
+}
+
+.pricing-item:hover .pricing-body .price-wrapper .period {
+  color: #fff;
+}
+
+.pricing-item .pricing-header {
+  text-align: center;
+  display: block;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.pricing-item .pricing-header .pricing-title {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #fff;
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  top: -20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    135deg,
+    rgba(46, 139, 86, 0.615) 0%,
+    seagreen 100%
+  );
+}
+
+.pricing-item .pricing-body {
+  margin-bottom: 40px;
+}
+
+.pricing-item .pricing-body .price-wrapper {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  background: #f6f6f6;
+}
+
+.pricing-item .pricing-body .price-wrapper .currency {
+  height: 47px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #e64b3d;
+  position: relative;
+  top: -15px;
+}
+
+.pricing-item .pricing-body .price-wrapper .price {
+  font-weight: 700;
+  font-size: 34px;
+  color: #e64b3d;
+  letter-spacing: 2.12px;
+}
+
+.pricing-item .pricing-body .price-wrapper .period {
+  font-weight: 700;
+  font-size: 14px;
+  color: #e64b3d;
+  letter-spacing: 0.88px;
+}
+
+.pricing-item .pricing-body .list li {
+  text-align: center;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ccdcea;
+  letter-spacing: 0.88px;
+  text-decoration: line-through;
+}
+
+.pricing-item .pricing-body .list li.active {
+  color: #3b566e;
+  text-decoration: none;
+}
+
+.pricing-item .pricing-footer {
+  text-align: center;
+}
+
+.btn-primary-line {
+  width: 160px;
+  margin: auto;
+  display: inline-block;
+  height: 44px;
+  line-height: 45px;
+  text-align: center;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  outline: none !important;
+  cursor: pointer;
+  text-decoration: none !important;
+  position: relative;
+}
+.pricing-item .pricing-footer .btn-primary-line {
+  border: 1px solid seagreen;
+  color: seagreen;
+  height: 36px;
+  line-height: 36px;
+}
+
+.pricing-item .pricing-footer .btn-primary-line:hover {
+  background: seagreen;
+  color: #fff;
+}
+
+.carousel-indicators li {
+  background-color: #007bff;
+}
+.carousel-indicators.active {
+  background-color: #ffc107;
+}
+
+.promo-container-video {
+  position: relative;
+  background-image: url("./assects/img/promo.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 490px;
+}
+.promo-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 150px;
+  width: 150px;
+  transform: translate(-50%, -50%);
+}
+
+.product-choose-body .choose-product-height {
+  height: 100% !important;
+}
+.featureProductFlex .fixed-card-height {
+  height: 100% !important;
+}
+
+/* Extra Small Devices (Small Phones - Portrait) */
+@media (max-width: 319.9px) {
+  .promo-container-video {
+    height: 180px;
+  }
+}
+
+/* Small Phones (Portrait - 320px and up) */
+@media (min-width: 320px) and (max-width: 575.9px) {
+  .promo-container-video {
+    height: 290px;
+  }
+}
+
+/* Phones (Landscape/Tablets - Portrait) */
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .promo-container-video {
+    height: 300px;
+  }
+}
+
+/* Tablets (Landscape) */
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .promo-container-video {
+    height: 390px;
+  }
+}
+
+/* Laptops/Desktops */
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .promo-container-video {
+    height: 420px;
+    background-size: 80%;
+  }
+}
+
+/* Large Desktops */
+@media (min-width: 1200px) {
+  .promo-container-video {
+    height: 490px;
+    background-size: 80%;
+  }
+}
