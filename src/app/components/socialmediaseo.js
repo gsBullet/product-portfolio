@@ -12,7 +12,7 @@ const socialmediaseo = () => {
             </h2>
             <div className="sms-content ">
               <div className="bg-sms-change">
-                <div className="text-light sms-text">
+                <div className="text-light sms-text text-center p-3 fs-5">
                   Social Media Sharing Feature of Active eCommerce CMS enables
                   your website users to share the product over Facebook,
                   Twitter, Google, Linkedin, Whatsapp, Tumblr, Pinterest,

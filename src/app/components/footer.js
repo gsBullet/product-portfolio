@@ -26,7 +26,7 @@ const footer = () => {
                 <div className="mb-4 text-start">
                   <Image
                     src={CompanyLogo}
-                    className="bg-light"
+                    className="bg-light rounded"
                     alt="company logo"
                   />
                 </div>
@@ -35,8 +35,8 @@ const footer = () => {
                     <Image
                       src={Telephone}
                       alt="Whatsapp"
-                      width={30}
-                      className="bg-light rounded"
+                      width={25}
+                      className=" rounded"
                     />
                   </div>
                   <div>
@@ -49,8 +49,8 @@ const footer = () => {
                     <Image
                       src={Whatsapp}
                       alt="Whatsapp"
-                      width={30}
-                      className="bg-light rounded"
+                      width={25}
+                      className=" rounded"
                     />
                   </div>
                   <div>
@@ -63,8 +63,8 @@ const footer = () => {
                     <Image
                       src={Telegram}
                       alt="Telegram"
-                      width={30}
-                      className="bg-light rounded"
+                      width={25}
+                      className="rounded"
                     />
                   </div>
                   <div>
@@ -76,8 +76,8 @@ const footer = () => {
                     <Image
                       src={Mail}
                       alt="Mail"
-                      width={30}
-                      className="bg-light rounded"
+                      width={25}
+                      className="rounded"
                     />
                   </div>
                   <div>
@@ -90,31 +90,31 @@ const footer = () => {
                     src={Facebook}
                     alt="Telephone"
                     width={20}
-                    className="bg-light rounded"
+                    className="rounded"
                   />
                   <Image
                     src={Youtube}
                     alt="Telephone"
                     width={20}
-                    className="bg-light rounded"
+                    className="rounded"
                   />
                   <Image
                     src={Twitter}
                     alt="Telephone"
                     width={20}
-                    className="bg-light rounded"
+                    className="rounded"
                   />{" "}
                   <Image
                     src={Instragram}
                     alt="Telephone"
                     width={20}
-                    className="bg-light rounded"
+                    className="rounded"
                   />
                   <Image
                     src={Linkedin}
                     alt="Telephone"
                     width={20}
-                    className="bg-light rounded"
+                    className="rounded"
                   />
                 </div>
               </div>

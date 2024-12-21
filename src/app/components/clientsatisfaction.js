@@ -13,7 +13,7 @@ const clientsatisfaction = () => {
             Why Our Client More satisfaction
           </h1>
           <div className="card-body mt-5">
-            <div className="d-flex justify-content-between  flex-sm-column flex-column flex-xl-row flex-xxl-row flex-lg-row flex-md-row ">
+            <div className="d-flex justify-content-between align-items-center  flex-sm-column flex-column flex-xxl-row flex-lg-row flex-md-column gap-md-4">
               <div className="client-img ">
                 <Image
                   src={ClientImage}
@@ -23,14 +23,16 @@ const clientsatisfaction = () => {
                   className="img-thumbnail border-0"
                 />
               </div>
-              <div className="client-info col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6 card">
-                <p className="text-center fs-5 p-5">
-                  The admin panel of Active eCommerce CMS serves as the central
-                  hub for managing your entire online business. It empowers you
-                  to oversee every aspect of your eCommerce operations, from
-                  handling customers and products to managing orders, sellers,
-                  and shops.
-                </p>
+              <div className="client-info col-12 col-sm-12 col-md-9 col-lg-6 col-xxl-6 ">
+                <div className="card">
+                  <p className="text-center fs-5 p-5">
+                    The admin panel of Active eCommerce CMS serves as the
+                    central hub for managing your entire online business. It
+                    empowers you to oversee every aspect of your eCommerce
+                    operations, from handling customers and products to managing
+                    orders, sellers, and shops.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

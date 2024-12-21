@@ -120,12 +120,11 @@ body {
 .product-choose-container,
 .payment-getway,
 .social-media-sharing,
-.smart-pricing,
-.foooter-ground-container {
+.smart-pricing {
   padding: 60px 0px;
 }
-.foooter-ground {
-  padding-top: 0px;
+.foooter-ground-container {
+  padding-top: 60px;
 }
 /* Ensure Bootstrap Container Context */
 .order-pricing-container {

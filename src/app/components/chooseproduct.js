@@ -48,7 +48,9 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">All-in-One Platform</h5>
+                  <h5 className="card-title fw-bold mt-3 ">
+                    All-in-One Platform
+                  </h5>
                   <p className="card-text">
                     Manage everything from admissions to exams, communication,
                     and more
@@ -67,7 +69,9 @@ const chooseproduct = () => {
                     className="img-thumbnail"
                   />
 
-                  <h5 className="card-title fw-bold">Multi-Campus Support</h5>
+                  <h5 className="card-title fw-bold mt-3">
+                    Multi-Campus Support
+                  </h5>
                   <p className="card-text">
                     Manage multiple branches under one platform.
                   </p>
@@ -84,7 +88,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     User-Friendly Interface
                   </h5>
                   <p className="card-text">
@@ -104,7 +108,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     Cloud & On-Premises Deployment
                   </h5>
                   <p className="card-text">
@@ -116,14 +120,14 @@ const chooseproduct = () => {
             <div className="col-12 col-sm-12 col-md-4 col-lg-3 col-xxl-3">
               <div className="choose-product-height card text-center">
                 <div className="card-body">
-                  <h5 className="card-title fw-bold">
-                    <Image
-                      src={Assesement}
-                      alt="exam-assessment"
-                      width={100}
-                      height={100}
-                      className="img-thumbnail"
-                    />
+                  <Image
+                    src={Assesement}
+                    alt="exam-assessment"
+                    width={100}
+                    height={100}
+                    className="img-thumbnail"
+                  />
+                  <h5 className="card-title fw-bold mt-3">
                     Exam & Assessment Management
                   </h5>
                   <p className="card-text">
@@ -143,7 +147,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     Learning Analytics & Insights
                   </h5>
                   <p className="card-text">
@@ -163,7 +167,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     Course & Curriculum Management
                   </h5>
                   <p className="card-text">
@@ -182,7 +186,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     Assignment & Homework Tracking
                   </h5>
                   <p className="card-text">Assign and review homework online</p>
@@ -199,7 +203,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     Academic Calendar & Schedules
                   </h5>
                   <p className="card-text">
@@ -218,7 +222,9 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">Attendance Tracking</h5>
+                  <h5 className="card-title fw-bold mt-3">
+                    Attendance Tracking
+                  </h5>
                   <p className="card-text">Manual attendance tracking.</p>
                 </div>
               </div>
@@ -233,7 +239,9 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">Fee Management System</h5>
+                  <h5 className="card-title fw-bold mt-3">
+                    Fee Management System
+                  </h5>
                   <p className="card-text">
                     Automate fee collection, billing, and online payments.
                   </p>
@@ -250,7 +258,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     Hostel & Accommodation Management
                   </h5>
                   <p className="card-text">
@@ -269,7 +277,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     HR & Staff Payroll Management
                   </h5>
                   <p className="card-text">
@@ -288,7 +296,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     Budget & Expense Tracking
                   </h5>
                   <p className="card-text">
@@ -307,7 +315,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     Parent & Student Portals
                   </h5>
                   <p className="card-text">
@@ -326,7 +334,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     Teacher Collaboration Tools:
                   </h5>
                   <p className="card-text">
@@ -346,7 +354,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     Audit Logs & History Tracking
                   </h5>
                   <p className="card-text">
@@ -365,7 +373,7 @@ const chooseproduct = () => {
                     height={100}
                     className="img-thumbnail"
                   />
-                  <h5 className="card-title fw-bold">
+                  <h5 className="card-title fw-bold mt-3">
                     System Maintenance & Updatest
                   </h5>
                   <p className="card-text">

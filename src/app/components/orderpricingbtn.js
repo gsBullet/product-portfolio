@@ -8,7 +8,7 @@ const orderpricingbtn = () => {
   return (
     <div className="container">
       <div className="order-pricing-container">
-        <div className="fixed-btn-container">
+        <div className="fixed-btn-container ms-3">
           <div className="btn-wrapper">
             <FaShoppingCart className="icon" />
             <span className="btn-text">Order Now</span>
