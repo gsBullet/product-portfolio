@@ -6,12 +6,12 @@ const promovideo = () => {
     <div className="container">
       {/* <div className="promo-container-img"> */}
       <div id="promo-container-img" className="promo-video ">
-        <div className="promo-video-header">
+        <div className="promo-video-header mb-5">
           <h1 className="fw-bolder text-dark text-center fs-1 text-capitalize">
             watch promo
           </h1>
-          <p className="text-center text-muted">
-            Complete system for your eCommerce business
+          <p className="text-center text-muted p-0">
+            Complete system for your School Management
           </p>
         </div>
         <div className="promo-thumbnail mb-3">

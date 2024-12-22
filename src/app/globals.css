@@ -102,14 +102,20 @@ body {
 }
 
 .product-banner {
-  background-image: url("./assects/img/banner.png");
+  background-image: url("./assects/img/banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 500px;
 }
+
 .banner-header {
   padding: 150px 0px;
+}
+.banner-banner-cover {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
 }
 .promo-video,
 .accordian-objects,

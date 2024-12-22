@@ -17,7 +17,7 @@ const paymentgetway = () => {
   return (
     <div className="container">
       <div className="payment-getway ">
-        <div className="getway-header">
+        <div className="getway-header mb-5">
           <h1 className="fw-bolder text-dark text-center fs-1 text-capitalize">
             Multiple Payment Gateways
           </h1>

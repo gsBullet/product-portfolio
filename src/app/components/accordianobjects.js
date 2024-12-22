@@ -16,9 +16,12 @@ const accordianobjects = () => {
               What&apos;s included
             </h1>
           </div>
-          <div className="accordian-section-part card1 border-0">
-            <div className="card-body1">
-              <div className="accordion accordion-flush" id="accordionFlushExample">
+          <div className="accordian-section-part  mt-5">
+            <div className="card-body">
+              <div
+                className="accordion accordion-flush"
+                id="accordionFlushExample"
+              >
                 <div className="accordion-item">
                   <h2 className="accordion-header">
                     <button

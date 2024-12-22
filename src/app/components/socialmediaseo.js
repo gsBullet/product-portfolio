@@ -7,7 +7,7 @@ const socialmediaseo = () => {
       <div className="social-media-sharing">
         <div className=" ">
           <div className="card-body m-auto">
-            <h2 className="fw-bolder text-dark text-center fs-1 text-capitalize mb-4">
+            <h2 className="fw-bolder text-dark text-center fs-1 text-capitalize mb-5">
               Social Media Sharing
             </h2>
             <div className="sms-content ">
@@ -26,13 +26,15 @@ const socialmediaseo = () => {
         </div>
         <div className="SEO-container">
           <div className="card-body w-75 m-auto">
-            <h2 className="fw-bolder text-dark text-center fs-1 text-capitalize mt-5">
-              Smart SEO Expertise
-            </h2>
-            <p className="text-center">
-              The easiest way to optimize your online store or products for
-              search engines!
-            </p>
+            <div className="mb-5">
+              <h2 className="fw-bolder text-dark text-center fs-1 text-capitalize mt-5">
+                Smart SEO Expertise
+              </h2>
+              <p className="text-center">
+                The easiest way to optimize your online store or products for
+                search engines!
+              </p>
+            </div>
             <div className="seo-manager"></div>
           </div>
         </div>
